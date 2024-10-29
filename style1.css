@@ -1,0 +1,54 @@
+* {
+	margin:0px;
+	padding:0px;
+}
+
+html, body{
+	height:100%
+}
+
+.mainDiv{
+	/*Position*/
+	position:fixed;
+	right:50%;
+	z-index:-1;
+	translate: 50% 0%;
+	/*Shape*/
+	width:50%;
+	height:100%;
+	/*Placeholder*/
+	background-color:red;
+	background-image:url("./jeruk.jpg")
+}
+
+.topDiv{
+	/*Position*/
+	position:relative;
+	margin:auto;
+	/*Shape*/
+	width:40%;
+	height:190px;
+	border-bottom-right-radius:30px;
+	border-bottom-left-radius: 30px;
+	/*Placeholder*/
+	background-color:yellow;
+}
+
+.circleDiv{
+	/*Position*/
+	position:absolute;
+	bottom:0;
+	right:50%;
+	translate: 50% 50%;
+	/*Shape*/
+	height:120px;
+	width:120px;
+	border-radius:50%;
+	/*Placeholder*/
+	background-color:blue;
+	
+}
+
+.placeholderText{
+	text-align:center;
+}
