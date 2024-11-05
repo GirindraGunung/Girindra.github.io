@@ -12,19 +12,15 @@ body{
 	background-attachment:fixed;
 }
 
-.mainDiv{
+.mainBgimg{
 	/*Position*/
 	position:fixed;
 	right:50%;
-	z-index:-1;
 	translate: 50% 0%;
+	z-index:-1;
 	/*Shape*/
 	width:55vw;
 	height:100vh;
-	/*BackGround*/
-	background-image:url("./sword.png");
-	background-repeat: no-repeat;
-	background-size:cover;
 	box-shadow: 0px 0px 20px 5px black;
 }
 
@@ -65,8 +61,9 @@ body{
 }
 
 .productPhoto{
-	margin-left:50%;
-	translate:-50% 0%;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
 	width:375px;
 	height:450px;
 }
