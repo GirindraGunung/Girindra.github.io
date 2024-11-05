@@ -14,8 +14,8 @@ html, body{
 	z-index:-1;
 	translate: 50% 0%;
 	/*Shape*/
-	width:50%;
-	height:100%;
+	width:55vw;
+	height:100vh;
 	/*BackGround*/
 	background-image:url("./sword.png");
 	background-repeat: no-repeat;
@@ -28,12 +28,11 @@ html, body{
 	position:relative;
 	margin:auto;
 	/*Shape*/
-	width:40%;
+	width:500px;
 	height:190px;
 	border-bottom-right-radius:30px;
 	border-bottom-left-radius: 30px;
-	/*Placeholder*/
-	background-color:yellow;
+	background-image:url("./logo.png");
 }
 
 .circleDiv{
@@ -60,7 +59,6 @@ html, body{
 }
 
 .productPhoto{
-	vertical-align:middle;
 	margin-left:50%;
 	translate:-50% 0%;
 	width:375px;
@@ -70,6 +68,13 @@ html, body{
 .h2Text{
 	margin-top:3em;
 	text-align:center;
+}
+
+.menu{
+	margin-left:50%;
+	translate:-50% 0%;
+	width:500px;
+	height:600px;
 }
 
 .waButton{
@@ -87,9 +92,36 @@ html, body{
 }
 .whatsAppdiv{
 	position:absolute;
+	left:0px;
 	top:0px;
+	translate: 0% 0.5%;
 	width:40px;
 	height:40px;
 	border-radius:50%;
 	background-image:url("./WhatsApp.png")
+}
+
+.igButton{
+	position:relative;
+	margin-top:20px;
+	margin-left:50%;
+	translate: -50% 0%;
+	background-image: linear-gradient(-170deg,#6228d7,#ee2a7b,#f9ce34);
+	font-size:30px;
+	text-align:center;
+	padding: 3px 100px;
+	color:white;
+	border-radius: 30px;
+	border:2px solid white;
+}
+
+.igDiv{
+	position:absolute;
+	left:0px;
+	top:0px;
+	translate: 0% 0.5%;
+	width:40px;
+	height:40px;
+	border-radius:50%;
+	background-image:url("./igLogo.png");
 }
