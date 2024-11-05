@@ -12,7 +12,7 @@ body{
 	background-image:url("./sword.png");
 	background-attachment:fixed;
 }
-@media only screen and (orientation: portrait){
+@media only screen and (max-width: 768px){
 	div.mainDiv{
 		width:100vw;
 	}
