@@ -7,6 +7,11 @@ html, body{
 	height:100%
 }
 
+body{
+	background-image:url("./sword.png");
+	background-attachment:fixed;
+}
+
 .mainDiv{
 	/*Position*/
 	position:fixed;
@@ -26,7 +31,8 @@ html, body{
 .topDiv{
 	/*Position*/
 	position:relative;
-	margin:auto;
+	margin-left:50%;
+	translate: -50% 0%;
 	/*Shape*/
 	width:500px;
 	height:190px;
