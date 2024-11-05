@@ -12,7 +12,11 @@ body{
 	background-image:url("./sword.png");
 	background-attachment:fixed;
 }
-
+@media only screen and (orientation: portrait){
+	div.mainDiv{
+		width:100vw;
+	}
+}
 .mainDiv{
 	/*Position*/
 	margin-left:auto;
@@ -62,8 +66,8 @@ body{
 
 .productPhoto{
 	display:block;
-	margin-left:auto;
-	margin-right:auto;
+	margin-left:50%;
+	translate: -50% 0%;
 	width:375px;
 	height:450px;
 }
