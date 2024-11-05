@@ -16,9 +16,11 @@ html, body{
 	/*Shape*/
 	width:50%;
 	height:100%;
-	/*Placeholder*/
-	background-color:red;
-	background-image:url("./jeruk.jpg")
+	/*BackGround*/
+	background-image:url("./sword.png");
+	background-repeat: no-repeat;
+	background-size:cover;
+	box-shadow: 0px 0px 20px 5px black;
 }
 
 .topDiv{
@@ -41,14 +43,55 @@ html, body{
 	right:50%;
 	translate: 50% 50%;
 	/*Shape*/
+	border-radius:50%;
 	height:120px;
 	width:120px;
-	border-radius:50%;
 	/*Placeholder*/
-	background-color:blue;
+	background-image:url("./pp1.jpg");
 	
 }
-
-.placeholderText{
+.topH1text{
+	margin-top:2em;
 	text-align:center;
+}
+.h1Text{
+	margin-top:0.1em;
+	text-align:center;
+}
+
+.productPhoto{
+	vertical-align:middle;
+	margin-left:50%;
+	translate:-50% 0%;
+	width:375px;
+	height:450px;
+}
+
+.h2Text{
+	margin-top:3em;
+	text-align:center;
+}
+
+.waButton{
+	position:relative;
+	margin-top:60px;
+	margin-left:50%;
+	translate:-50% 0%;
+	background-color:#25D366;
+	font-size:30px;
+	text-align:center;
+	padding: 3px 100px;
+	color:white;
+	border-radius:30px;
+	border:2px solid white;
+}
+.whatsAppdiv{
+	position:absolute;
+	bottom:0px;
+	left:0px;
+	width:40px;
+	height:40px;
+	border-radius:50%;
+	background-color:purple;
+	background-image:url("./WhatsApp.png")
 }
