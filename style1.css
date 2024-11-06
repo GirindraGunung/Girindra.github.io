@@ -12,11 +12,7 @@ body{
 	background-image:url("./sword.png");
 	background-attachment:fixed;
 }
-@media only screen and (max-width: 768px){
-	div.mainDiv{
-		width:99vw;
-	}
-}
+
 .mainDiv{
 	/*Position*/
 	margin-left:auto;
