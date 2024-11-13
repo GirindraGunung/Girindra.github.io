@@ -196,6 +196,37 @@ H1, H2{
 	background-image:url("./mapLogo.png");
 }
 
+.youtubeButton{
+	position:relative;
+	margin-left:50%;
+	translate:-50% 0%;
+	background-color:#FF0000;
+	transition-duration:0.3s;
+	width:350px;
+	font-size:30px;
+	text-align:center;
+	padding: 3px;
+	color:white;
+	border-radius:30px;
+	border:2px solid white;
+}
+.youtubeButton:hover{
+	background-color:white;
+	color:#FF0000;
+	cursor:pointer;
+}
+
+.youtubeDiv{
+	position:absolute;
+	left:0px;
+	top:0px;
+	translate: 0% 0.5%;
+	width:40px;
+	height:40px;
+	border-radius:50%;
+	background-image:url("./youtube.png");
+}
+
 .bottom{
 	color:rgba(0,0,0,0);
 }
